@@ -1,5 +1,5 @@
-title: "Erfan Loweimi"
-author: "Erfan Loweimi"
+title: "Zhengjun Yue"
+author: "Zhengjun Yue"
 description: ""
 permalink: /:title/
 lang: "en"
@@ -36,13 +36,13 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:erfan.loweimi@gmail.com"}
-  - {title: Google Scholar, icon: google, url: "https://scholar.google.co.uk/citations?user=ke3k7XEAAAAJ&hl=en"}
-  - {title: Research Gate, icon: researchgate, url: "https://www.researchgate.net/profile/Erfan-Loweimi"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/erfan-loweimi-b5454759/?originalSubdomain=uk"}
-  - {title: Github, icon: github, url: "https://github.com/eloweimi"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/loweimi?lang=en"}
-  - {title: ORCiD, icon: orcid, url: "https://orcid.org/0000-0002-8761-021X"}
+  - {title: Mail, icon: envelope, url: "mailto:z.yue@tudelft.nl"}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?user=4txi6M0AAAAJ&hl=en"}
+  - {title: Research Gate, icon: researchgate, url: "https://www.researchgate.net/profile/Zhengjun-Yue"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/zhengjun-yue/"}
+  - {title: Github, icon: github, url: "https://github.com/zhengjunyue"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/ZhengjunYue"}
+  - {title: ORCiD, icon: orcid, url: "https://orcid.org/my-orcid?orcid=0000-0002-1101-549X"}
 
 
 comments:
