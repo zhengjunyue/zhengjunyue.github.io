@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Activities"
 ---
 
 * ### [Outstanding Reviewer Award](https://signalprocessingsociety.org/community-involvement/speech-and-language-processing/newsletter/speech-and-language-technical-4), ICASSP, 2022
