@@ -31,8 +31,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Talks", file: "talks.md"}
   - {title: "Tutorials", file: "tutorial.md"}
   - {title: "Teaching", file: "teachin.md"}
-  - {title: "Awards", file: "award.md"}
-  - {title: "Roles", file: "role.md"}
+  - {title: "Activities", file: "activities.md"}
+  - {title: "Hobbies", file: "hobbies.md"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
