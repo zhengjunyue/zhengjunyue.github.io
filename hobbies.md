@@ -16,26 +16,26 @@ title: ""
 ### Sing  
 <iframe width="250" height="200" src="https://www.youtube.com/embed/s5iOwrDtQ5s" frameborder="0" allowfullscreen></iframe>
 <iframe width="250" height="200" src="https://www.youtube.com/embed/739VzGQT6_I" frameborder="0" allowfullscreen></iframe>
-<iframe width="250" height="200" src="https://www.youtube.com/embed/_wEndDn07RI" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="250" height="200" src="https://www.youtube.com/embed/rYTFVVAMa58" frameborder="0" allowfullscreen></iframe>
+* [More](https://www.youtube.com/@ZhengjunYue/playlists)
 
 
 ### Piano 
-   - Publication Chair, Spoken Language Technology Workshop (SLT), Doha, Qatar, 2022
-   - UKSpeech 2016 Co-organiser, Sheffield, UK, 2016
-   - Project Facilitator, Transforming Society Summer School, Sheffield, UK, 2015
-
-
-
+<iframe width="250" height="200" src="https://www.youtube.com/embed/s5iOwrDtQ5s" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/739VzGQT6_I" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/_wEndDn07RI" frameborder="0" allowfullscreen></iframe>
+* [More](https://www.youtube.com/@ZhengjunYue/playlists)
+     
 ### Guitar  
-   - Spoken Language Technology Workshop (SLT) 2022
-   - ICASSP 2022, Language Disorder Detection
-   - INTERSPEECH 2019, ASR for Noisy and Far-Field Speech
-   <!-- - Statistical Language and Speech Processing (SLSP), 2015 -->
+<iframe width="250" height="200" src="https://www.youtube.com/embed/OBA_S-thtP0" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/739VzGQT6_I" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/_wEndDn07RI" frameborder="0" allowfullscreen></iframe>
+* [More](https://www.youtube.com/@ZhengjunYue/playlists)
+
 
 ### Zheng  
-   - Co-supervising one PhD student, University of Edinburgh, 2018-2021
-   - Primary supervisor of four MSc students, University of Edinburgh, 2019-2021
+<iframe width="250" height="200" src="https://www.youtube.com/embed/r_ss9e5WAOk" frameborder="0" allowfullscreen></iframe>
+* [More](https://www.youtube.com/@ZhengjunYue/playlists)
 
 
 
