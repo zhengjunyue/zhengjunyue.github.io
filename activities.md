@@ -3,8 +3,6 @@ layout: page
 title: "Activities"
 ---
 
-<be>
-
 ## Organisation Committee Member  
    - Publication Chair, Spoken Language Technology Workshop (SLT), Doha, Qatar, 2022
    - UKSpeech 2016 Co-organiser, Sheffield, UK, 2016
