@@ -26,12 +26,11 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
  # - {title: "Home", file: "about.md"}  # Set "about" layout for Home link
  # - {title: "Home", url: "/", icon: home}  # Update the URL to the homepage
  # - {title: "About", file: "/about.md"}
-  - {title: "News", file: "news.md"}
   - {title: "CV", url: "/files/CV.pdf"}
   - {title: "Publications", file: "publications.md"}
-  - {title: "Talks", file: "talks.md"}
-  - {title: "Teaching", file: "teaching.md"}
+  - {title: "Education", file: "teaching.md"}
   - {title: "Activities", file: "activities.md"}
+  - {title: "News", file: "news.md"}
   - {title: "Hobbies", file: "hobbies.md"}
   
 
@@ -45,6 +44,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Twitter, icon: twitter, url: "https://twitter.com/ZhengjunYue"}
   - {title: ORCiD, icon: orcid, url: "https://orcid.org/my-orcid?orcid=0000-0002-1101-549X"}
   - {title: Facebook, icon: facebook, url: "https://www.facebook.com/profile.php?id=100021335133289"}
+  - {title: Youtube, icon: youtube, url: "https://www.youtube.com/@ZhengjunYue/playlists"}
 
 
 comments:
