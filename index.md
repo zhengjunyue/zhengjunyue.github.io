@@ -3,7 +3,7 @@ layout: page
 title: "About"
 ---
 <div style="margin-top: -20px;">
-<img src="/files/Thumbnail.png" alt="Zhengjun" style="width: 26.7%; margin-left: 35px; float: right;">
+<img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 26.7%; margin-left: 35px; float: right;">
 </div>
 
 
