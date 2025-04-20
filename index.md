@@ -7,7 +7,7 @@ title: ""
   <!-- Right Side (Photo, Contact Info, and Social Links) -->
   <div style="text-align: center; flex: 0 0 250px;">
     <!-- Photo Section -->
-    <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px; float: right; margin-left: 20px;">
+    <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px; float: right; margin-left: 0px;">
     
     <!-- Contact Info Section -->
     <div style="font-size: 1rem; margin-bottom: 20px;">
