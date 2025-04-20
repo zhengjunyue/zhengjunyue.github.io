@@ -4,16 +4,31 @@ title: ""
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
-  <!-- Right Side (Photo and Contact Info) -->
+  <!-- Right Side (Photo, Contact Info, and Social Links) -->
   <div style="text-align: center; flex: 0 0 250px;">
     <!-- Photo Section -->
     <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px; float: right; margin-left: 20px;">
     
     <!-- Contact Info Section -->
-    <div style="font-size: 1rem;">
+    <div style="font-size: 1rem; margin-bottom: 20px;">
       <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
-      <p><strong>Phone:</strong> +44 (0)75 4409 5405</p>
+      <p><strong>Assistant Professor</strong></p>
+      <p><strong>TU Delft</strong></p>
+      <p><strong>Speech Technology for Healthcare</strong></p>
       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank">Zhengjun Yue</a></p>
+    </div>
+    
+    <!-- Social Media Icons Section -->
+    <div style="font-size: 1.5rem;">
+      <a href="mailto:z.yue@tudelft.nl" style="margin: 0 10px;"><i class="fa fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ" target="_blank" style="margin: 0 10px;"><i class="fa fa-google"></i></a>
+      <a href="https://www.researchgate.net/profile/Zhengjun-Yue" target="_blank" style="margin: 0 10px;"><i class="fa fa-researchgate"></i></a>
+      <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/zhengjunyue" target="_blank" style="margin: 0 10px;"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/ZhengjunYue" target="_blank" style="margin: 0 10px;"><i class="fa fa-twitter"></i></a>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0002-1101-549X" target="_blank" style="margin: 0 10px;"><i class="fa fa-orcid"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100021335133289" target="_blank" style="margin: 0 10px;"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.youtube.com/@ZhengjunYue/playlists" target="_blank" style="margin: 0 10px;"><i class="fa fa-youtube"></i></a>
     </div>
   </div>
 
