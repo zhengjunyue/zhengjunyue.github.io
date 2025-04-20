@@ -7,13 +7,13 @@ title: ""
   <!-- Right Side (Photo, Contact Info, and Social Links) -->
   <div style="text-align: center; flex: 0 0 250px;">
     <!-- Photo Section -->
-    <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px; float: right; margin-left: 0px;">
+    <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px; float: right; margin-left: 20px;">
     
     <!-- Contact Info Section -->
     <div style="font-size: 1rem; margin-bottom: 20px;">
       <p><strong>Assistant Professor, TU Delft</strong></p>
       <p><strong>Speech Technology for Healthcare</strong></p>
-      <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
+      <!--<p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>-->
     </div>
     
     <!-- Social Media Icons Section -->
