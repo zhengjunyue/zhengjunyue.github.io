@@ -1,0 +1,56 @@
+title: "Zhengjun Yue"
+author: "Zhengjun Yue"
+description: ""
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_social: true          # show site description and social links in the footer
+show_excerpts: false       # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_description: false    # show site description in the side bar
+show_sidebar: false        # show a sidebar instead of the usual header
+show_title: true
+bib_search: true
+
+# Styling
+
+dark_header: false
+minimal: false              # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+ # - {title: "Home", file: "about.md"}  # Set "about" layout for Home link
+ # - {title: "Home", url: "/", icon: home}  # Update the URL to the homepage
+ # - {title: "About", file: "/about.md"}
+  - {title: "CV", url: "/cv"}
+  - {title: "Publications", file: "publications.md"}
+  - {title: "Teaching", file: "teaching.md"}
+  - {title: "Activities", file: "activities.md"}
+  - {title: "News", file: "news.md"}
+  - {title: "Hobbies", file: "hobbies.md"}
+  
+
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:z.yue@tudelft.nl"}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ"}
+  - {title: Research Gate, icon: researchgate, url: "https://www.researchgate.net/profile/Zhengjun-Yue"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/zhengjun-yue/"}
+  - {title: Github, icon: github, url: "https://github.com/zhengjunyue"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/ZhengjunYue"}
+  - {title: ORCiD, icon: orcid, url: "https://orcid.org/my-orcid?orcid=0000-0002-1101-549X"}
+  - {title: Facebook, icon: facebook, url: "https://www.facebook.com/profile.php?id=100021335133289"}
+  - {title: Youtube, icon: youtube, url: "https://www.youtube.com/@ZhengjunYue/playlists"}
+
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
