@@ -5,29 +5,78 @@ title: "Resume"
 
 <h1>My Resume</h1>
 
-<p>Here is my resume:</p>
-
 <div id="resume-content">
   <!-- The content of resume.json will be inserted here -->
 </div>
 
 <script>
   // Fetch the resume.json file
-  fetch('{{ site.baseurl }}/assets/json/resume.json')
+  fetch('/assets/json/resume.json')
     .then(response => response.json())  // Parse the JSON response
     .then(data => {
       // Process the resume data and display it here
       const resumeContainer = document.getElementById('resume-content');
 
-      // Create a formatted HTML structure based on JSON content
-      let htmlContent = '<ul>';
-      // Example of rendering JSON data into HTML
-      data.sections.forEach(section => {
-        htmlContent += `<li><h3>${section.title}</h3><p>${section.content}</p></li>`;
-      });
-      htmlContent += '</ul>';
+      // Helper function to render sections
+      const renderSection = (sectionTitle, sectionData) => {
+        let html = `<h2>${sectionTitle}</h2><ul>`;
+        sectionData.forEach(item => {
+          html += `<li><strong>${item.name || item.title}</strong>: ${item.summary || item.content || item.position || item.institution}</li>`;
+        });
+        html += '</ul>';
+        return html;
+      };
 
-      resumeContainer.innerHTML = htmlContent;  // Insert the generated HTML
+      // Build the HTML content for each section
+      let htmlContent = '';
+      
+      if (data.basics) {
+        htmlContent += `<h3>Basics</h3><ul>
+                        <li><strong>Name:</strong> ${data.basics.name}</li>
+                        <li><strong>Label:</strong> ${data.basics.label}</li>
+                        <li><strong>Email:</strong> ${data.basics.email}</li>
+                        <li><strong>Phone:</strong> ${data.basics.phone}</li>
+                        <li><strong>Summary:</strong> ${data.basics.summary}</li>
+                        </ul>`;
+      }
+
+      // Render work section
+      if (data.work) {
+        htmlContent += renderSection("Work", data.work);
+      }
+
+      // Render volunteer section
+      if (data.volunteer) {
+        htmlContent += renderSection("Volunteer", data.volunteer);
+      }
+
+      // Render education section
+      if (data.education) {
+        htmlContent += renderSection("Education", data.education);
+      }
+
+      // Render awards section
+      if (data.awards) {
+        htmlContent += renderSection("Awards", data.awards);
+      }
+
+      // Render certificates section
+      if (data.certificates) {
+        htmlContent += renderSection("Certificates", data.certificates);
+      }
+
+      // Render publications section
+      if (data.publications) {
+        htmlContent += renderSection("Publications", data.publications);
+      }
+
+      // Render skills section
+      if (data.skills) {
+        htmlContent += renderSection("Skills", data.skills);
+      }
+
+      // Add the content to the page
+      resumeContainer.innerHTML = htmlContent;
     })
     .catch(error => {
       console.error('Error loading resume data:', error);
