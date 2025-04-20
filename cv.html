@@ -4,19 +4,8 @@ title: "Resume"
 ---
 
 <div id="resume-page">
-  <header class="header">
-    <h1>Zhengjun Yue</h1>
-    <h2>Assistant Professor</h2>
-    <p class="contact-info">
-      <strong>Contact:</strong><br>
-      Tel: +44 (0)75 4409 5405<br>
-      Email: <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a><br>
-      <strong>Online profiles:</strong><br>
-      <a href="https://www.researchgate.net/profile/Zhengjun_Yue" target="_blank">ResearchGate</a><br>
-      <a href="https://www.linkedin.com/in/zhengjun-yue-a313a9205/" target="_blank">LinkedIn</a>
-    </p>
-  </header>
 
+  <!-- Content Section -->
   <div class="content">
     <section class="education">
       <h2>Education</h2>
@@ -29,7 +18,7 @@ title: "Resume"
           <p><strong>PhD</strong><br>Department of Computer Science<br>University of Sheffield</p>
         </div>
         <div class="education-image">
-          <img src="https://example.com/university_logo_sheffield.jpg" alt="University of Sheffield" class="university-logo">
+          <img src="files/images/Shef.JPG" alt="University of Sheffield" class="university-logo">
         </div>
       </div>
 
@@ -42,7 +31,7 @@ title: "Resume"
           <p><strong>Master of Science in Artificial Intelligence</strong><br>School of Informatics<br>University of Edinburgh</p>
         </div>
         <div class="education-image">
-          <img src="https://example.com/university_logo_edinburgh.jpg" alt="University of Edinburgh" class="university-logo">
+          <img src="files/images/Edin.JPG" alt="University of Edinburgh" class="university-logo">
         </div>
       </div>
 
@@ -55,12 +44,22 @@ title: "Resume"
           <p><strong>Bachelor of Telecommunications Engineering</strong><br>School of Telecommunications and Engineering<br>Shanghai University</p>
         </div>
         <div class="education-image">
-          <img src="https://example.com/university_logo_shanghai.jpg" alt="Shanghai University" class="university-logo">
+          <img src="files/images/Shanghai.JPG" alt="Shanghai University" class="university-logo">
         </div>
       </div>
     </section>
 
-    <!-- Other sections like Work Experience, Skills, etc. -->
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>12.2022 - Present:</strong> Assistant Professor, Faculty of Electrical Engineering, TU Delft</li>
+        <li><strong>08.2021-11.2022:</strong> Research Associate (SpeechWave Project), King's College London</li>
+        <li><strong>10.2018-10.2021:</strong> Marie-Curie Early Stage Researcher (H2020 Marie-Curie TAPAS), University of Sheffield</li>
+        <li><strong>01.2021-04.2021:</strong> Data Scientist (Secondment), Therapy Box, London, UK</li>
+      </ul>
+    </section>
+
+    <!-- More sections for Skills, Publications, etc., can be added similarly -->
   </div>
 </div>
 
@@ -80,29 +79,24 @@ title: "Resume"
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* Adjusted size for name */
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 10px;
     color: #27ae60; /* Green color for section headers */
   }
 
-  .header {
-    background-color: #27ae60; /* Green header background */
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-
   .contact-info {
-    font-size: 1.2rem;
-    line-height: 1.8;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
   }
 
   .contact-info a {
-    color: #fff;
+    color: #27ae60;
     text-decoration: none;
   }
 
