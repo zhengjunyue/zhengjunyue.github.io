@@ -17,7 +17,7 @@ header {
   margin: 0px;
   padding: 0px;
   background-color: #fff; /* White background for content */
-  border-radius: 8px; /* Rounded corners for content box */
+  border-radius: 1px; /* Rounded corners for content box */
 }
 
 /* Modify anchor links or specific items if needed */
