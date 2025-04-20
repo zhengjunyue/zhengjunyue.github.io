@@ -1,39 +1,55 @@
----
-layout: page
-title: "About"
----
+title: "Zhengjun Yue"
+author: "Zhengjun Yue"
+description: ""
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
-  <!-- Left Side (Text) -->
-  <div style="flex: 1; padding-right: 20px;">
-    <h2>Short Bio</h2>
-    <p>Greetings! I am an Assistant Professor at the Speech Lab of the Multimedia Computing Group at the Delft University of Technology (TU Delft), the Netherlands. My research focus is **Speech Technology for Healthcare**.</p>
-    
-    <p>I completed my PhD in the area of dysarthric speech recognition in the Speech and Hearing Group at the University of Sheffield, United Kingdom, funded by the Marie-Curie H2020 TAPAS project. After my PhD, I worked at King's College London (KCL), United Kingdom, as a postdoc funded by the British Engineering and Natural Sciences Research Council (EPSRC) SpeechWave project, focusing on robust dysarthric speech recognition using raw waveform acoustic modelling. I hold an M.Sc. in Artificial Intelligence from the University of Edinburgh and a B.Sc. in Telecommunication Engineering from Shanghai University. For more details, please visit my [CV](https://zhengjunyue.github.io/cv/) page.</p>
-    
-    <p>Outside of work, I enjoy dancing, singing, playing various instruments, and learning languages.</p>
-  </div>
+# Layout
 
-  <!-- Right Side (Photo and Contact Info) -->
-  <div style="flex: 0 0 250px; text-align: center;">
-    <!-- Photo Section -->
-    <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px;">
-    
-    <!-- Contact Info Section -->
-    <div style="font-size: 1rem;">
-      <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank">Zhengjun Yue</a></p>
-    </div>
-  </div>
-</div>
+show_social: true          # show site description and social links in the footer
+show_excerpts: false       # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_description: false    # show site description in the side bar
+show_sidebar: false        # show a sidebar instead of the usual header
+show_title: true
 
-## Research Interests ##
-* Speech Technology for Healthcare Applications
-* Pathological speech processing and recognition
-* Cognitive impairment detection and invention
-* Child speech analysis
-* Conversational AI medical systems for healthcare
-* Multi-modal biomarkers for pathological speech
-* Generative AI for pathological speech
+# Styling
 
-## News ##
+dark_header: true
+minimal: false              # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+ # - {title: "Home", file: "about.md"}  # Set "about" layout for Home link
+ # - {title: "Home", url: "/", icon: home}  # Update the URL to the homepage
+ # - {title: "About", file: "/about.md"}
+  - {title: "CV", url: "/cv"}
+  - {title: "Publications", file: "publications.md"}
+  - {title: "Education", file: "teaching.md"}
+  - {title: "Activities", file: "activities.md"}
+  - {title: "News", file: "news.md"}
+  - {title: "Hobbies", file: "hobbies.md"}
+  
+
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:z.yue@tudelft.nl"}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ"}
+  - {title: Research Gate, icon: researchgate, url: "https://www.researchgate.net/profile/Zhengjun-Yue"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/zhengjun-yue/"}
+  - {title: Github, icon: github, url: "https://github.com/zhengjunyue"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/ZhengjunYue"}
+  - {title: ORCiD, icon: orcid, url: "https://orcid.org/my-orcid?orcid=0000-0002-1101-549X"}
+  - {title: Facebook, icon: facebook, url: "https://www.facebook.com/profile.php?id=100021335133289"}
+  - {title: Youtube, icon: youtube, url: "https://www.youtube.com/@ZhengjunYue/playlists"}
+
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
