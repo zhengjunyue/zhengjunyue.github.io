@@ -20,11 +20,16 @@ title: "Resume"
   <div class="content">
     <section class="education">
       <h2>Education</h2>
-      <ul>
-        <li><strong>11.2018-07.2022:</strong> PhD, Department of Computer Science, University of Sheffield</li>
-        <li><strong>09.2017-08.2018:</strong> Master of Science in Artificial Intelligence, School of Informatics, University of Edinburgh</li>
-        <li><strong>09.2013-07.2017:</strong> Bachelor of Telecommunications Engineering, Shanghai University</li>
-      </ul>
+      <div class="education-item">
+        <div class="education-text">
+          <p><strong>11.2018-07.2022:</strong> PhD, Department of Computer Science, University of Sheffield</p>
+          <p><strong>09.2017-08.2018:</strong> Master of Science in Artificial Intelligence, School of Informatics, University of Edinburgh</p>
+          <p><strong>09.2013-07.2017:</strong> Bachelor of Telecommunications Engineering, Shanghai University</p>
+        </div>
+        <div class="education-image">
+          <img src="https://example.com/university_logo.jpg" alt="University Logo" class="university-logo">
+        </div>
+      </div>
     </section>
 
     <section class="work-experience">
@@ -98,17 +103,46 @@ title: "Resume"
     color: #27ae60; /* Green color for section headers */
   }
 
-  section ul {
+  .education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .education-text {
+    flex: 1;
+    font-size: 1.1rem;
+  }
+
+  .education-text p {
+    margin: 5px 0;
+  }
+
+  .education-image {
+    flex: 0 0 150px;
+  }
+
+  .university-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .work-experience ul {
     list-style-type: none;
     padding: 0;
   }
 
-  section ul li {
+  .work-experience ul li {
     font-size: 1.1rem;
     margin-bottom: 10px;
   }
 
-  section ul li strong {
+  .work-experience ul li strong {
     color: #2c3e50;
   }
 </style>
