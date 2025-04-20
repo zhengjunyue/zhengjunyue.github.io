@@ -1,0 +1,22 @@
+---
+layout: default
+title: "CV"
+---
+
+<h1>My Resume</h1>
+
+<p>You can download my resume in JSON format or view it below:</p>
+
+<!-- Link to download the JSON file -->
+<a href="/assets/json/resume.json" target="_blank">Download Resume (JSON)</a>
+
+<!-- Optionally, use JavaScript to display the content -->
+<script>
+  fetch('/assets/json/resume.json')
+    .then(response => response.json())
+    .then(data => {
+      // You can display your JSON content here or format it as needed
+      document.write("<pre>" + JSON.stringify(data, null, 2) + "</pre>");
+    })
+    .catch(error => console.error('Error loading resume:', error));
+</script>
