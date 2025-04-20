@@ -43,9 +43,8 @@ title: ""
 
 ## Research Interests ##
 * Speech Technology for Healthcare Applications
-* Pathological speech processing and recognition
+* Pathological, child speech processing and recognition
 * Cognitive impairment detection and invention
-* Child speech analysis
 * Conversational AI medical systems for healthcare
 * Multi-modal biomarkers for pathological speech
 * Generative AI for pathological speech
