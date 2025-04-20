@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Education"
+title: ""
 ---
 
 ## Teaching ##
 
 * ### Co-lecturer ###
-  - DSAIT4095: Inclusive Speech Technology (with Odette Scharenborg). [Language and Speech Technology Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/language-and-speech-technology).
-  - DSAIT4065: Conversational Agent (With Catharine Oertel Genannt Bierbach, Stephanie Tan, Iulia Lefter). [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
+  - DSAIT4095 (MSc): Inclusive Speech Technology (with Odette Scharenborg). [Language and Speech Technology Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/language-and-speech-technology).
+  - DSAIT4065 (MSc): Conversational Agent (With Catharine Oertel Genannt Bierbach, Stephanie Tan, Iulia Lefter). [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
 
 * ### Guest Lecturer ###
   - Inclusive Speech Technology. VU Amsterdam. Invited by Kousar Aslam. 06-2025. 
