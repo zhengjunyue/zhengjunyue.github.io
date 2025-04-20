@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem "jekyll", "~> 4.2"
 gem "jekyll-scholar"
-gem "github-pages"
 gem "jekyll-feed"
 
 group :jekyll_plugins do
