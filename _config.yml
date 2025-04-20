@@ -28,6 +28,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
  # - {title: "Home", url: "/", icon: home}  # Update the URL to the homepage
  # - {title: "About", file: "/about.md"}
   - {title: "CV", url: "/cv"}
+  - {title: "Publications", file: "publications.md"}
   - {title: "Teaching", file: "teaching.md"}
   - {title: "Activities", file: "activities.md"}
   - {title: "News", file: "news.md"}
@@ -120,7 +121,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
