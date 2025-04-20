@@ -1,0 +1,29 @@
+/* Set page background to light purple */
+body {
+  background-color: #D6A9F1; /* Light Purple */
+  color: #333; /* Adjust text color for readability */
+}
+
+/* Style the header with a custom dark purple */
+header {
+  background-color: #6A3D9A; /* Dark Purple for top bar */
+  color: white; /* White text color for the top bar */
+  padding: 20px; /* Padding to give space around the header */
+  text-align: center;
+}
+
+/* Optional: Adjust content box to stand out */
+.main-content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; /* White background for content */
+  border-radius: 8px; /* Rounded corners for content box */
+}
+
+/* Modify anchor links or specific items if needed */
+a {
+  color: #6A3D9A; /* Make links match the header color */
+}
+a:hover {
+  color: #D6A9F1; /* Hover effect to match page background */
+}
