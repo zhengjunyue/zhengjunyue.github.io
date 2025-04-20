@@ -14,7 +14,6 @@ show_frame: true           # adds a gray frame to the site
 show_description: false    # show site description in the side bar
 show_sidebar: false        # show a sidebar instead of the usual header
 show_title: true
-bib_search: true
 
 # Styling
 
