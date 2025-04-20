@@ -1,22 +1,36 @@
 ---
 layout: default
-title: "CV"
+title: "Resume"
 ---
 
 <h1>My Resume</h1>
 
-<p>You can download my resume in JSON format or view it below:</p>
+<p>Here is my resume:</p>
 
-<!-- Link to download the JSON file -->
-<a href="/assets/json/resume.json" target="_blank">Download Resume (JSON)</a>
+<div id="resume-content">
+  <!-- The content of resume.json will be inserted here -->
+</div>
 
-<!-- Optionally, use JavaScript to display the content -->
 <script>
+  // Fetch the resume.json file
   fetch('/assets/json/resume.json')
-    .then(response => response.json())
+    .then(response => response.json())  // Parse the JSON response
     .then(data => {
-      // You can display your JSON content here or format it as needed
-      document.write("<pre>" + JSON.stringify(data, null, 2) + "</pre>");
+      // Process the resume data and display it here
+      const resumeContainer = document.getElementById('resume-content');
+
+      // Create a formatted HTML structure based on JSON content
+      let htmlContent = '<ul>';
+      // Example of rendering JSON data into HTML
+      data.sections.forEach(section => {
+        htmlContent += `<li><h3>${section.title}</h3><p>${section.content}</p></li>`;
+      });
+      htmlContent += '</ul>';
+
+      resumeContainer.innerHTML = htmlContent;  // Insert the generated HTML
     })
-    .catch(error => console.error('Error loading resume:', error));
+    .catch(error => {
+      console.error('Error loading resume data:', error);
+      document.getElementById('resume-content').innerHTML = "Failed to load resume data.";
+    });
 </script>
