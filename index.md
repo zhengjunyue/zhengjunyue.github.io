@@ -14,7 +14,6 @@ title: ""
       <p><strong>Assistant Professor, TU Delft</strong></p>
       <p><strong>Speech Technology for Healthcare</strong></p>
       <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
-      <p><a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;"><i class="fab fa-linkedin"></i></a></p>
     </div>
     
     <!-- Social Media Icons Section -->
