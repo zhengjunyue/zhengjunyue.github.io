@@ -153,8 +153,9 @@ title: "Resume"
   }
 
   .university-logo {
-    max-width: 180px;
-    height: auto;
+    width: 100%; /* Ensure it fills the container */
+    height: 100%; /* Ensures the image takes up the full height */
+    object-fit: cover; /* This makes the image fill the container, maintaining aspect ratio */
     border-radius: 8px;
   }
 
