@@ -23,9 +23,9 @@ IEEE/ACM Transaction on Audio, Speech and Language Processing (TASLP), 2022
 
 1. **Z. Yue**, Y. Zhang. "[End-to-end acoustic-articulatory dysarthric speech recognition leveraging large-scale pretrained acoustic features](https://ieeexplore.ieee.org/abstract/document/10888412)". ICASSP 2025.
 
-2. Y.Zhang, **Z. Yue**, T. Patel, O. Scharenborg. "[Improving child speech recognition with augmented child-like speech](https://arxiv.org/abs/2406.10284)". Interspeech 2024.
+2. Y. Zhang, **Z. Yue**, T. Patel, O. Scharenborg. "[Improving child speech recognition with augmented child-like speech](https://arxiv.org/abs/2406.10284)". Interspeech 2024.
 
-3. Y.Zhang, A. Herygers, T. Patel, **Z.Yue**, and O. Scharenborg. "[Exploring data augmentation in bias mitigation against non-native-accented speech](https://ieeexplore.ieee.org/abstract/document/10389756)". ASRU 2023.
+3. Y. Zhang, A. Herygers, T. Patel, **Z. Yue**, and O. Scharenborg. "[Exploring data augmentation in bias mitigation against non-native-accented speech](https://ieeexplore.ieee.org/abstract/document/10389756)". ASRU 2023.
 
 4. **Z. Yue <sup>&#8224;</sup>**, E. Loweimi <sup>&#8224;</sup>, and Z. Cvetkovic. "[Dysarthric speech recognition, detection and classification using raw phase and magnitude spectra](https://kclpure.kcl.ac.uk/portal/en/publications/dysarthric-speech-recognition-detection-and-classification-using-)". Interspeech 2023. (**<sup>&#8224;</sup>** Equal contribution).
 
