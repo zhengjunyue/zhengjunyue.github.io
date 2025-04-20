@@ -44,3 +44,5 @@ IEEE/ACM Transaction on Audio, Speech and Language Processing (TASLP), 2022
 11. F. Xiong,  J. Barker, **Z. Yue**, and H. Christensen. "[Source domain data selection for improved transfer learning targeting dysarthric speech recognition](https://ieeexplore.ieee.org/abstract/document/9054694)". ICASSP 2020.
 
 ## Thesis ##
+
+Z. Yue. "[Continuous Speech Recognition for People with Dysarthria](https://etheses.whiterose.ac.uk/id/eprint/32041/">PhD Thesis)". PhD thesis. 2022. 
