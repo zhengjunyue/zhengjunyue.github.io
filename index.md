@@ -11,11 +11,10 @@ title: ""
     
     <!-- Contact Info Section -->
     <div style="font-size: 1rem; margin-bottom: 20px;">
-      <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
-      <p><strong>Assistant Professor</strong></p>
-      <p><strong>TU Delft</strong></p>
+      <p><strong>Assistant Professor, TU Delft</strong></p>
       <p><strong>Speech Technology for Healthcare</strong></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank">Zhengjun Yue</a></p>
+      <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
+      <p><a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;"><i class="fab fa-linkedin"></i></a></p>
     </div>
     
     <!-- Social Media Icons Section -->
