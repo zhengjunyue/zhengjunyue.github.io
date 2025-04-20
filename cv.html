@@ -58,6 +58,7 @@ title: "Resume"
     <!-- Work Experience Section -->
     <section class="work-experience">
       <h2>Work Experience</h2>
+     
       <!-- Work Experience Item 1 -->
       <div class="work-item">
         <div class="time">
@@ -115,13 +116,13 @@ title: "Resume"
   }
 
   h1 {
-    font-size: 2.5rem; /* Adjusted size for name */
+    font-size: 2.5rem;
   }
 
   h2 {
     font-size: 1.8rem;
     margin-top: 10px;
-    color: #27ae60; /* Green color for section headers */
+    color: #27ae60;
   }
 
   .contact-info {
@@ -148,9 +149,10 @@ title: "Resume"
   }
 
   section h2 {
-    color: #27ae60; /* Green color for section headers */
+    color: #27ae60;
   }
 
+  /* Education Section Styling */
   .education-item {
     display: flex;
     justify-content: space-between;
@@ -160,6 +162,30 @@ title: "Resume"
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .education-image, .work-image {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .university-logo, .company-logo {
+    width: 100%; /* Fill the entire width of the container */
+    height: 100%; /* Fill the entire height of the container */
+    object-fit: cover; /* Ensures the image covers the container and fills both dimensions */
+    border-radius: 8px;
+  }
+
+  .education-details, .work-details {
+    flex: 3;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .education-details p, .work-details p {
+    margin: 5px 0;
   }
 
   .time {
@@ -173,41 +199,15 @@ title: "Resume"
     color: #2c3e50;
   }
 
-  .education-details {
-    flex: 3;
-    font-size: 1.1rem;
-    text-align: left;
-  }
-
-  .education-details p {
-    margin: 5px 0;
-  }
-
-  .education-image {
-    flex: 1;
-    height: 100%; /* Make sure the image container takes full height */
-    position: relative;
-    overflow: hidden;
-  }
-
-  .university-logo {
-    width: 100%; /* Ensure it fills the container */
-    height: 100%; /* Ensures the image takes up the full height */
-    object-fit: cover; /* This makes the image fill the container, maintaining aspect ratio */
+  /* Work Experience Section Styling */
+  .work-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 8px;
-  }
-
-  .work-experience ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .work-experience ul li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-
-  .work-experience ul li strong {
-    color: #2c3e50;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 </style>
