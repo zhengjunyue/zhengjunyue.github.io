@@ -9,6 +9,87 @@ title: "Resume"
   <!-- The content of resume.json will be inserted here -->
 </div>
 
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .section ul li strong {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+
+  .education, .work, .volunteer {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .education h3, .work h3, .volunteer h3 {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-top: 0;
+  }
+
+  .publications, .certificates, .skills {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .publications ul, .certificates ul, .skills ul {
+    padding-left: 15px;
+  }
+
+  .publications li, .certificates li, .skills li {
+    margin-bottom: 8px;
+  }
+
+  .certificates .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+</style>
+
 <script>
   // Fetch the resume.json file
   fetch('/assets/json/resume.json')
@@ -18,64 +99,69 @@ title: "Resume"
       const resumeContainer = document.getElementById('resume-content');
 
       // Helper function to render sections
-      const renderSection = (sectionTitle, sectionData) => {
-        let html = `<h2>${sectionTitle}</h2><ul>`;
+      const renderSection = (sectionTitle, sectionData, sectionClass) => {
+        let html = `<div class="${sectionClass}"><h2>${sectionTitle}</h2><ul>`;
         sectionData.forEach(item => {
           html += `<li><strong>${item.name || item.title}</strong>: ${item.summary || item.content || item.position || item.institution}</li>`;
         });
-        html += '</ul>';
+        html += '</ul></div>';
         return html;
       };
 
       // Build the HTML content for each section
       let htmlContent = '';
-      
+
+      // Basics Section
       if (data.basics) {
-        htmlContent += `<h3>Basics</h3><ul>
-                        <li><strong>Name:</strong> ${data.basics.name}</li>
-                        <li><strong>Label:</strong> ${data.basics.label}</li>
-                        <li><strong>Email:</strong> ${data.basics.email}</li>
-                        <li><strong>Phone:</strong> ${data.basics.phone}</li>
-                        <li><strong>Summary:</strong> ${data.basics.summary}</li>
-                        </ul>`;
+        htmlContent += `<div class="section basics">
+                          <h2>Basics</h2>
+                          <ul>
+                            <li><strong>Name:</strong> ${data.basics.name}</li>
+                            <li><strong>Label:</strong> ${data.basics.label}</li>
+                            <li><strong>Email:</strong> ${data.basics.email}</li>
+                            <li><strong>Phone:</strong> ${data.basics.phone}</li>
+                            <li><strong>Summary:</strong> ${data.basics.summary}</li>
+                            <li><strong>Location:</strong> ${data.basics.location.city}, ${data.basics.location.region}, ${data.basics.location.countryCode}</li>
+                          </ul>
+                        </div>`;
       }
 
-      // Render work section
+      // Work Section
       if (data.work) {
-        htmlContent += renderSection("Work", data.work);
+        htmlContent += renderSection("Work Experience", data.work, "section work");
       }
 
-      // Render volunteer section
+      // Volunteer Section
       if (data.volunteer) {
-        htmlContent += renderSection("Volunteer", data.volunteer);
+        htmlContent += renderSection("Volunteer Work", data.volunteer, "section volunteer");
       }
 
-      // Render education section
+      // Education Section
       if (data.education) {
-        htmlContent += renderSection("Education", data.education);
+        htmlContent += renderSection("Education", data.education, "section education");
       }
 
-      // Render awards section
+      // Awards Section
       if (data.awards) {
-        htmlContent += renderSection("Awards", data.awards);
+        htmlContent += renderSection("Awards", data.awards, "section awards");
       }
 
-      // Render certificates section
+      // Certificates Section
       if (data.certificates) {
-        htmlContent += renderSection("Certificates", data.certificates);
+        htmlContent += renderSection("Certificates", data.certificates, "section certificates");
       }
 
-      // Render publications section
+      // Publications Section
       if (data.publications) {
-        htmlContent += renderSection("Publications", data.publications);
+        htmlContent += renderSection("Publications", data.publications, "section publications");
       }
 
-      // Render skills section
+      // Skills Section
       if (data.skills) {
-        htmlContent += renderSection("Skills", data.skills);
+        htmlContent += renderSection("Skills", data.skills, "section skills");
       }
 
-      // Add the content to the page
+      // Display the generated HTML content
       resumeContainer.innerHTML = htmlContent;
     })
     .catch(error => {
