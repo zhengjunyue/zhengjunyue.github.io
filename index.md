@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
   <!-- Left Side (Text) -->
   <div style="flex: 1; padding-right: 20px;">
     <h2>Short Bio</h2>
@@ -15,13 +15,14 @@ title: ""
   </div>
 
   <!-- Right Side (Photo and Contact Info) -->
-  <div style="flex: 0 0 300px; text-align: center;">
+  <div style="flex: 0 0 250px; text-align: center;">
     <!-- Photo Section -->
     <img src="/files/Yue_Zhengjun.jpg" alt="Zhengjun" style="width: 100%; max-width: 200px; border-radius: 50%; margin-bottom: 20px;">
     
     <!-- Contact Info Section -->
     <div style="font-size: 1rem;">
       <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
+      <p><strong>Phone:</strong> +44 (0)75 4409 5405</p>
       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank">Zhengjun Yue</a></p>
     </div>
   </div>
