@@ -17,7 +17,7 @@ show_title: true
 
 # Styling
 
-dark_header: true
+dark_header: false
 minimal: false              # use a dark header
 
 # Menu
@@ -30,7 +30,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Publications", file: "publications.md"}
   - {title: "Teaching", file: "teaching.md"}
   - {title: "Activities", file: "activities.md"}
-  - {title: "News", file: "publications.md"}
+  - {title: "News", file: "news.md"}
   - {title: "Hobbies", file: "hobbies.md"}
   
 
