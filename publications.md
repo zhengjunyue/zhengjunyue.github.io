@@ -12,6 +12,7 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
+{% include scholar.html %}
 
 <div class="publications">
 
