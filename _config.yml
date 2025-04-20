@@ -54,6 +54,7 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-scholar
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
