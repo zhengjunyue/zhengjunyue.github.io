@@ -20,29 +20,47 @@ title: "Resume"
   <div class="content">
     <section class="education">
       <h2>Education</h2>
+      <!-- Education Item 1 -->
       <div class="education-item">
-        <div class="education-text">
-          <p><strong>11.2018-07.2022:</strong> PhD, Department of Computer Science, University of Sheffield</p>
-          <p><strong>09.2017-08.2018:</strong> Master of Science in Artificial Intelligence, School of Informatics, University of Edinburgh</p>
-          <p><strong>09.2013-07.2017:</strong> Bachelor of Telecommunications Engineering, Shanghai University</p>
+        <div class="time">
+          <p>11.2018-07.2022</p>
+        </div>
+        <div class="education-details">
+          <p><strong>PhD</strong><br>Department of Computer Science<br>University of Sheffield</p>
         </div>
         <div class="education-image">
-          <img src="https://example.com/university_logo.jpg" alt="University Logo" class="university-logo">
+          <img src="https://example.com/university_logo_sheffield.jpg" alt="University of Sheffield" class="university-logo">
+        </div>
+      </div>
+
+      <!-- Education Item 2 -->
+      <div class="education-item">
+        <div class="time">
+          <p>09.2017-08.2018</p>
+        </div>
+        <div class="education-details">
+          <p><strong>Master of Science in Artificial Intelligence</strong><br>School of Informatics<br>University of Edinburgh</p>
+        </div>
+        <div class="education-image">
+          <img src="https://example.com/university_logo_edinburgh.jpg" alt="University of Edinburgh" class="university-logo">
+        </div>
+      </div>
+
+      <!-- Education Item 3 -->
+      <div class="education-item">
+        <div class="time">
+          <p>09.2013-07.2017</p>
+        </div>
+        <div class="education-details">
+          <p><strong>Bachelor of Telecommunications Engineering</strong><br>School of Telecommunications and Engineering<br>Shanghai University</p>
+        </div>
+        <div class="education-image">
+          <img src="https://example.com/university_logo_shanghai.jpg" alt="Shanghai University" class="university-logo">
         </div>
       </div>
     </section>
 
-    <section class="work-experience">
-      <h2>Work Experience</h2>
-      <ul>
-        <li><strong>12.2022 - Present:</strong> Assistant Professor, Faculty of Electrical Engineering, TU Delft</li>
-        <li><strong>08.2021-11.2022:</strong> Research Associate (SpeechWave Project), King's College London</li>
-        <li><strong>10.2018-10.2021:</strong> Marie-Curie Early Stage Researcher (H2020 Marie-Curie TAPAS), University of Sheffield</li>
-        <li><strong>01.2021-04.2021:</strong> Data Scientist (Secondment), Therapy Box, London, UK</li>
-      </ul>
-    </section>
-
-    <!-- More sections for Skills, Publications, etc., can be added similarly -->
+    <!-- Other sections like Work Experience, Skills, etc. -->
   </div>
 </div>
 
@@ -107,27 +125,41 @@ title: "Resume"
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background-color: #fff;
+    padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .education-text {
+  .time {
     flex: 1;
-    font-size: 1.1rem;
+    text-align: center;
   }
 
-  .education-text p {
+  .time p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .education-details {
+    flex: 3;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .education-details p {
     margin: 5px 0;
   }
 
   .education-image {
-    flex: 0 0 150px;
+    flex: 1;
+    text-align: center;
   }
 
   .university-logo {
-    max-width: 100%;
+    max-width: 120px;
     height: auto;
     border-radius: 8px;
   }
