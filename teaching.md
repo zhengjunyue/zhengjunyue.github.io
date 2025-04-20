@@ -10,8 +10,8 @@ title: ""
   - DSAIT4065 (MSc): Conversational Agent (With Catharine Oertel Genannt Bierbach, Stephanie Tan, Iulia Lefter). [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
 
 * ### Guest Lecturer ###
-  - Inclusive Speech Technology. VU Amsterdam. Invited by Kousar Aslam. 06-2025. 
-  - Towards pathological speech recognition. University of Zurich. Invited by Sarah Ebling. 05-2022, 05-2023.c
+  - Inclusive Speech Technology. VU Amsterdam. Invited by Kousar Aslam. 06/2025. 
+  - Towards pathological speech recognition. University of Zurich. Invited by Sarah Ebling. 05/2022, 05/2023.
   
 
 ## Supervisor ##  
@@ -23,14 +23,14 @@ title: ""
    - Mohamed-Yusuf Noor (Co-supervised with Odette Scharenborg). _Enhancing the Intelligibility of Dysarthric Speech using Diffusion-based Voice Conversion. _(Paused). TU Delft.
 
 * ### Bachelor thesis ###
-   - Franz Zeisler. _Reducing Bias in State-of-the-Art ASR Systems for Child Speech - Addressing Age and Gender Disparities through Transfer Learning Strategies. _TU Delft. 27-06-2024. 
-   - Mirella Günther. _Improving State-of-the-Art ASR Systems for Speakers with Dysarthria - Applying Low-Rank Adaptation Transfer Learning to Whisper._ TU Delft. 27-06-2024. 
-   - Orhan Ağaoğlu. _How Does OpenAI’s Whisper Interpret Dysarthric Speech? - An Analysis of Acoustic Feature Probing and Representation Layers for Dysarthic Speech._ TU Delft. 27-06-2024. 
-   - Filip Nguyen Duc. _Evaluating Alternative Metrics for Dysarthric Speech Recognition - Assessing the Effectiveness of Different Evaluation Metrics in Dysarthric Speech Recognition Systems Across Various Severities._ TU Delft. 27-06-2024. 
-   - Christopher Charlesworth. _Automatic Dysarthria Severity Assessment using Whisper-extracted Features - Evaluating ML architectures for dysarthria severity assessment on TORGO and MSDM._ TU Delft. 27-06-2024. 
+   - Franz Zeisler. _Reducing Bias in State-of-the-Art ASR Systems for Child Speech - Addressing Age and Gender Disparities through Transfer Learning Strategies. _TU Delft. 27/06/2024. 
+   - Mirella Günther. _Improving State-of-the-Art ASR Systems for Speakers with Dysarthria - Applying Low-Rank Adaptation Transfer Learning to Whisper._ TU Delft. 27/06/2024. 
+   - Orhan Ağaoğlu. _How Does OpenAI’s Whisper Interpret Dysarthric Speech? - An Analysis of Acoustic Feature Probing and Representation Layers for Dysarthic Speech._ TU Delft. 27/06/2024. 
+   - Filip Nguyen Duc. _Evaluating Alternative Metrics for Dysarthric Speech Recognition - Assessing the Effectiveness of Different Evaluation Metrics in Dysarthric Speech Recognition Systems Across Various Severities._ TU Delft. 27/06/2024. 
+   - Christopher Charlesworth. _Automatic Dysarthria Severity Assessment using Whisper-extracted Features - Evaluating ML architectures for dysarthria severity assessment on TORGO and MSDM._ TU Delft. 27/06/2024. 
 
 * ### Bachelor software project ###
-   - [Spectral](https://spectral.ewi.tudelft.nl/): A Toolkit for Comparative Atypical Speech Analysis and Recording ([Open Sourced](https://github.com/TU-Delft-SALT-Group/spectral/blob/main/README.md)). Yousef El Bakri, Quinton den Haan, Thijs Houben, Roman Knyazhitskiy, Odysseas Machairas.
+   - [Spectral](https://spectral.ewi.tudelft.nl/): A Toolkit for Comparative Atypical Speech Analysis and Recording ([Open Sourced](https://github.com/TU-Delft-SALT-Group/spectral/blob/main/README.md)). Yousef El Bakri, Quinton den Haan, Thijs Houben, Roman Knyazhitskiy, Odysseas Machairas. 04-06/2024. 
 
 ## Examiner ##
 * ### Master Defence ###
