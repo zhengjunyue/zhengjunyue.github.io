@@ -17,16 +17,16 @@ title: ""
     </div>
     
     <!-- Social Media Icons Section -->
-    <div style="font-size: 1.5rem;">
-      <a href="mailto:z.yue@tudelft.nl" style="margin: 0 10px;"><i class="fa fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ" target="_blank" style="margin: 0 10px;"><i class="fa fa-google"></i></a>
-      <a href="https://www.researchgate.net/profile/Zhengjun-Yue" target="_blank" style="margin: 0 10px;"><i class="fa fa-researchgate"></i></a>
-      <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;"><i class="fa fa-linkedin"></i></a>
-      <a href="https://github.com/zhengjunyue" target="_blank" style="margin: 0 10px;"><i class="fa fa-github"></i></a>
-      <a href="https://twitter.com/ZhengjunYue" target="_blank" style="margin: 0 10px;"><i class="fa fa-twitter"></i></a>
-      <a href="https://orcid.org/my-orcid?orcid=0000-0002-1101-549X" target="_blank" style="margin: 0 10px;"><i class="fa fa-orcid"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100021335133289" target="_blank" style="margin: 0 10px;"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.youtube.com/@ZhengjunYue/playlists" target="_blank" style="margin: 0 10px;"><i class="fa fa-youtube"></i></a>
+    <div style="font-size: 1.5rem; margin-top: 20px;">
+      <a href="mailto:z.yue@tudelft.nl" style="margin: 0 10px;" title="Email"><i class="fa fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ" target="_blank" style="margin: 0 10px;" title="Google Scholar"><i class="fa fa-google"></i></a>
+      <a href="https://www.researchgate.net/profile/Zhengjun-Yue" target="_blank" style="margin: 0 10px;" title="ResearchGate"><i class="fa fa-researchgate"></i></a>
+      <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/zhengjunyue" target="_blank" style="margin: 0 10px;" title="GitHub"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/ZhengjunYue" target="_blank" style="margin: 0 10px;" title="Twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0002-1101-549X" target="_blank" style="margin: 0 10px;" title="ORCiD"><i class="fa fa-orcid"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100021335133289" target="_blank" style="margin: 0 10px;" title="Facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.youtube.com/@ZhengjunYue/playlists" target="_blank" style="margin: 0 10px;" title="YouTube"><i class="fa fa-youtube"></i></a>
     </div>
   </div>
 
