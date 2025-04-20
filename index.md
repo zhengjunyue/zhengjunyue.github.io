@@ -51,3 +51,5 @@ title: ""
 * Generative AI for pathological speech
 
 ## News ##
+## Acknowledgement ##
+I am deeply grateful to my PhD supervisors, Heidi and Jon, for their excellent supervision, which has provided invaluable examples for my research and career development. I would also like to thank Zoran and Erfan for their continuous support and insightful discussions, which have fostered our ongoing collaboration. Lastly, I am thankful to Odette for her guidance and for being a strong role model, helping me settle into my current position.
