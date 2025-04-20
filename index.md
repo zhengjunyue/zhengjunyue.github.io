@@ -7,16 +7,20 @@ title: "About"
 </div>
 
 
-### Education ###
-I completed my PhD in 2022 at the Speech and Hearing Research Group ([SPandH](https://www.sheffield.ac.uk/dcs/research/groups/spandh)), <u>University of Sheffield</u>, under the joint supervision of Professor [Heidi Christensen](https://www.sheffield.ac.uk/dcs/people/academic/heidi-christensen/) Professor [Jon Barker](http://staffwww.dcs.shef.ac.uk/people/J.Barker/).
+### Bio ###
+I am an Assistant Professor at the Speech Lab of Multimedia Computing Group at the Delft University of Technology (TU Delft), the Netherlands. My research focus is Speech Technology for Healthcare. I received my B.Sc. degree in Telecommunication Engineering from Shanghai University, China, in 2017, and the M.Sc. degree in Artificial Intelligence from the University of Edinburgh, United Kingdom. I completed my PhD in the area of dysarthric speech recognition in the Speech and Hearing Group at the University of Sheffield, United Kingdom, funded by the Marie-Curie H2020 TAPAS project. After my PhD, I worked at King's College London (KCL), United Kingdom, as a postdoc funded by the British Engineering and Natural Sciences Research Council (EPSRC) SpeechWave project, focusing on robust dysarthric speech recognition using raw waveform acoustic modelling.
+My research interests are pathological speech processing and recognition, , child speech analysis, conversational AI medical systems for healthcare, and multi-modal biomarkers for pathological speech.
 
 <!-- I received my <u>MSc</u> and <u>BSc</u> degrees from the University of Edinburgh (UK) and Shanghai University (China), respectively, with degrees in Artificial Intelligence and Telecommunication Engineering. -->
 
 <br>
 
 ### Research Interests ###
-  * Speech technology for healthcare applications
-  
-  * Pathological speech processing
-  
-  * Communication AI for medical application
+  * Speech Technology for Healthcare Applications
+  * Pathological speech processing and recognition
+  * Cognitive impairment detection and invention
+  * Child speech analysis
+  * Conversational AI medical systems for healthcare
+  * Multi-modal biomarkers for pathological speech
+  * Generative AI for pathological speech
+
