@@ -8,11 +8,11 @@ title: ""
 ## Journals ##
 
 1. E. Loweimi, **Z. Yue**, P. Bell, S. Renals, and Z. Cvetkovic. “[Multi-stream Acoustic
-Modelling using Raw Real and Imaginary Parts of the Fourier Transform](https://ieeexplore.ieee.org/abstract/document/10026604)”, IEEE/ACM
+Modelling using Raw Real and Imaginary Parts of the Fourier Transform](https://ieeexplore.ieee.org/abstract/document/10026604)”. IEEE/ACM
 Transaction on Audio, Speech and Language Processing (TASLP), 2023.
 
 2. **Z. Yue<sup>&#8224;</sup>**, E. Loweimi <sup>&#8224;</sup>, J. Barker, H. Christensen, and Z. Cvetkovic. “[Acoustic
-Modelling from Raw Source and Filter Components for Dysarthric Speech Recognition](https://ieeexplore.ieee.org/document/9900378)”,
+Modelling from Raw Source and Filter Components for Dysarthric Speech Recognition](https://ieeexplore.ieee.org/document/9900378)”.
 IEEE/ACM Transaction on Audio, Speech and Language Processing (TASLP), 2022
 (**<sup>&#8224;</sup>** Equal contribution).
 
@@ -21,13 +21,13 @@ IEEE/ACM Transaction on Audio, Speech and Language Processing (TASLP), 2022
 
 ## Conferences ##
 
-1. **Z. Yue**, Y. Zhang. "[End-to-end acoustic-articulatory dysarthric speech recognition leveraging large-scale pretrained acoustic features](https://ieeexplore.ieee.org/abstract/document/10888412)", ICASSP 2025.
+1. **Z. Yue**, Y. Zhang. "[End-to-end acoustic-articulatory dysarthric speech recognition leveraging large-scale pretrained acoustic features](https://ieeexplore.ieee.org/abstract/document/10888412)". ICASSP 2025.
 
-2. Y.Zhang, **Z. Yue**, T. Patel, O. Scharenborg. "[Improving child speech recognition with augmented child-like speech]()". Interspeech 2024.
+2. Y.Zhang, **Z. Yue**, T. Patel, O. Scharenborg. "[Improving child speech recognition with augmented child-like speech](https://arxiv.org/abs/2406.10284)". Interspeech 2024.
 
-3. Y.Zhang, A. Herygers, T. Patel, **Z.Yue**, and O. Scharenborg. "[Exploring data augmentation in bias mitigation against non-native-accented speech](https://arxiv.org/abs/2406.10284)". ASRU 2023.
+3. Y.Zhang, A. Herygers, T. Patel, **Z.Yue**, and O. Scharenborg. "[Exploring data augmentation in bias mitigation against non-native-accented speech](https://ieeexplore.ieee.org/abstract/document/10389756)". ASRU 2023.
 
-4. **Z. Yue**, E. Loweimi, and Z. Cvetkovic. "[Dysarthric speech recognition, detection and classification using raw phase and magnitude spectra](https://ieeexplore.ieee.org/abstract/document/10389756)". Interspeech 2023. 
+4. **Z. Yue <sup>&#8224;</sup>**, E. Loweimi <sup>&#8224;</sup>, and Z. Cvetkovic. "[Dysarthric speech recognition, detection and classification using raw phase and magnitude spectra](https://kclpure.kcl.ac.uk/portal/en/publications/dysarthric-speech-recognition-detection-and-classification-using-)". Interspeech 2023. (**<sup>&#8224;</sup>** Equal contribution).
 
 5. **Z. Yue**, E. Loweimi, and Z. Cvetkovic. "[Raw source and filter modelling for dysarthric speech recognition](https://ieeexplore.ieee.org/document/9746553)". ICASSP 2022.
 
