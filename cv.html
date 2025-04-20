@@ -3,169 +3,112 @@ layout: default
 title: "Resume"
 ---
 
-<h1>My Resume</h1>
+<div id="resume-page">
+  <header class="header">
+    <h1>Zhengjun Yue</h1>
+    <h2>Assistant Professor</h2>
+    <p class="contact-info">
+      <strong>Contact:</strong><br>
+      Tel: +44 (0)75 4409 5405<br>
+      Email: <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a><br>
+      <strong>Online profiles:</strong><br>
+      <a href="https://www.researchgate.net/profile/Zhengjun_Yue" target="_blank">ResearchGate</a><br>
+      <a href="https://www.linkedin.com/in/zhengjun-yue-a313a9205/" target="_blank">LinkedIn</a>
+    </p>
+  </header>
 
-<div id="resume-content">
-  <!-- The content of resume.json will be inserted here -->
+  <div class="content">
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>11.2018-07.2022:</strong> PhD, Department of Computer Science, University of Sheffield</li>
+        <li><strong>09.2017-08.2018:</strong> Master of Science in Artificial Intelligence, School of Informatics, University of Edinburgh</li>
+        <li><strong>09.2013-07.2017:</strong> Bachelor of Telecommunications Engineering, Shanghai University</li>
+      </ul>
+    </section>
+
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>12.2022 - Present:</strong> Assistant Professor, Faculty of Electrical Engineering, TU Delft</li>
+        <li><strong>08.2021-11.2022:</strong> Research Associate (SpeechWave Project), King's College London</li>
+        <li><strong>10.2018-10.2021:</strong> Marie-Curie Early Stage Researcher (H2020 Marie-Curie TAPAS), University of Sheffield</li>
+        <li><strong>01.2021-04.2021:</strong> Data Scientist (Secondment), Therapy Box, London, UK</li>
+      </ul>
+    </section>
+
+    <!-- More sections for Skills, Publications, etc., can be added similarly -->
+  </div>
 </div>
 
 <style>
+  /* Global styles */
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
   }
 
-  h1 {
-    font-size: 2.5rem;
-    color: #333;
+  h1, h2 {
     text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .section {
-    margin-bottom: 40px;
-  }
-
-  .section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-
-  .section ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .section ul li {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    padding-left: 20px;
-  }
-
-  .section ul li strong {
-    font-weight: bold;
     color: #2c3e50;
   }
 
-  .highlight {
-    color: #e74c3c;
-    font-weight: bold;
+  h1 {
+    font-size: 3rem;
   }
 
-  .education, .work, .volunteer {
-    background-color: #ecf0f1;
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 20px;
+  h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #27ae60; /* Green color for section headers */
   }
 
-  .education h3, .work h3, .volunteer h3 {
+  .header {
+    background-color: #27ae60; /* Green header background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contact-info {
     font-size: 1.2rem;
-    color: #34495e;
-    margin-top: 0;
+    line-height: 1.8;
   }
 
-  .publications, .certificates, .skills {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 15px;
+  .contact-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .content {
+    margin-top: 30px;
+  }
+
+  section {
+    background-color: #ecf0f1;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
   }
 
-  .publications ul, .certificates ul, .skills ul {
-    padding-left: 15px;
+  section h2 {
+    color: #27ae60; /* Green color for section headers */
   }
 
-  .publications li, .certificates li, .skills li {
-    margin-bottom: 8px;
+  section ul {
+    list-style-type: none;
+    padding: 0;
   }
 
-  .certificates .icon {
-    font-size: 1.5rem;
-    margin-right: 10px;
+  section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  section ul li strong {
+    color: #2c3e50;
   }
 </style>
-
-<script>
-  // Fetch the resume.json file
-  fetch('/assets/json/resume.json')
-    .then(response => response.json())  // Parse the JSON response
-    .then(data => {
-      // Process the resume data and display it here
-      const resumeContainer = document.getElementById('resume-content');
-
-      // Helper function to render sections
-      const renderSection = (sectionTitle, sectionData, sectionClass) => {
-        let html = `<div class="${sectionClass}"><h2>${sectionTitle}</h2><ul>`;
-        sectionData.forEach(item => {
-          html += `<li><strong>${item.name || item.title}</strong>: ${item.summary || item.content || item.position || item.institution}</li>`;
-        });
-        html += '</ul></div>';
-        return html;
-      };
-
-      // Build the HTML content for each section
-      let htmlContent = '';
-
-      // Basics Section
-      if (data.basics) {
-        htmlContent += `<div class="section basics">
-                          <h2>Basics</h2>
-                          <ul>
-                            <li><strong>Name:</strong> ${data.basics.name}</li>
-                            <li><strong>Label:</strong> ${data.basics.label}</li>
-                            <li><strong>Email:</strong> ${data.basics.email}</li>
-                            <li><strong>Phone:</strong> ${data.basics.phone}</li>
-                            <li><strong>Summary:</strong> ${data.basics.summary}</li>
-                            <li><strong>Location:</strong> ${data.basics.location.city}, ${data.basics.location.region}, ${data.basics.location.countryCode}</li>
-                          </ul>
-                        </div>`;
-      }
-
-      // Work Section
-      if (data.work) {
-        htmlContent += renderSection("Work Experience", data.work, "section work");
-      }
-
-      // Volunteer Section
-      if (data.volunteer) {
-        htmlContent += renderSection("Volunteer Work", data.volunteer, "section volunteer");
-      }
-
-      // Education Section
-      if (data.education) {
-        htmlContent += renderSection("Education", data.education, "section education");
-      }
-
-      // Awards Section
-      if (data.awards) {
-        htmlContent += renderSection("Awards", data.awards, "section awards");
-      }
-
-      // Certificates Section
-      if (data.certificates) {
-        htmlContent += renderSection("Certificates", data.certificates, "section certificates");
-      }
-
-      // Publications Section
-      if (data.publications) {
-        htmlContent += renderSection("Publications", data.publications, "section publications");
-      }
-
-      // Skills Section
-      if (data.skills) {
-        htmlContent += renderSection("Skills", data.skills, "section skills");
-      }
-
-      // Display the generated HTML content
-      resumeContainer.innerHTML = htmlContent;
-    })
-    .catch(error => {
-      console.error('Error loading resume data:', error);
-      document.getElementById('resume-content').innerHTML = "Failed to load resume data.";
-    });
-</script>
