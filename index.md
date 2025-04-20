@@ -9,8 +9,10 @@ title: "About"
 
 ### Bio ###
 Greetings! I am an Assistant Professor at the Speech Lab of the Multimedia Computing Group at the Delft University of Technology (TU Delft), the Netherlands. My research focus is **Speech Technology for Healthcare**. 
+
 I completed my PhD in the area of dysarthric speech recognition in the Speech and Hearing Group at the University of Sheffield, United Kingdom, funded by the Marie-Curie H2020 TAPAS project. After my PhD, I worked at King's College London (KCL), United Kingdom, as a postdoc funded by the British Engineering and Natural Sciences Research Council (EPSRC) SpeechWave project, focusing on robust dysarthric speech recognition using raw waveform acoustic modelling. I hold an M.Sc. in Artificial Intelligence from the University of Edinburgh and a B.Sc. in Telecommunication Engineering from Shanghai University. For more details, please visit my [CV](https://zhengjunyue.github.io/cv/) page. 
-Outside of work, I enjoy dancing, singing, playing various instruments, and learning languages. Visit my Hobbies page for more info.
+
+Outside of work, I enjoy dancing, singing, playing various instruments, and learning languages. 
 
 <!-- I received my <u>MSc</u> and <u>BSc</u> degrees from the University of Edinburgh (UK) and Shanghai University (China), respectively, with degrees in Artificial Intelligence and Telecommunication Engineering. -->
 
