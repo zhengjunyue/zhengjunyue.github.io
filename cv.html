@@ -13,7 +13,7 @@ title: "Resume"
 
 <script>
   // Fetch the resume.json file
-  fetch('/assets/json/resume.json')
+  fetch('{{ site.baseurl }}/assets/json/resume.json')
     .then(response => response.json())  // Parse the JSON response
     .then(data => {
       // Process the resume data and display it here
