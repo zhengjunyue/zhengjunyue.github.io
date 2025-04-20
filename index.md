@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: ""
 ---
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
