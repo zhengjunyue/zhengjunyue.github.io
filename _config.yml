@@ -27,7 +27,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
  # - {title: "Home", url: "/", icon: home}  # Update the URL to the homepage
  # - {title: "About", file: "/about.md"}
   - {title: "CV", url: "/cv"}
-  - {title: "Publications", file: "publications.md"}
+  - {title: "Publications", file: "hobbies.md"}
   - {title: "Teaching", file: "teaching.md"}
   - {title: "Activities", file: "activities.md"}
   - {title: "News", file: "news.md"}
