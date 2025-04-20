@@ -8,14 +8,14 @@ body {
 header {
   background-color: #6A3D9A; /* Dark Purple for top bar */
   color: white; /* White text color for the top bar */
-  padding: 20px; /* Padding to give space around the header */
+  padding: 0px; /* Padding to give space around the header */
   text-align: center;
 }
 
 /* Optional: Adjust content box to stand out */
 .main-content {
-  margin: 20px;
-  padding: 20px;
+  margin: 0px;
+  padding: 0px;
   background-color: #fff; /* White background for content */
   border-radius: 8px; /* Rounded corners for content box */
 }
