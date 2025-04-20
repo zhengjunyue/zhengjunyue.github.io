@@ -7,6 +7,7 @@ title: "Activities"
    - Publication Chair, Spoken Language Technology Workshop (SLT), Doha, Qatar, 2022
    - UKSpeech 2016 Co-organiser, Sheffield, UK, 2016
    - Project Facilitator, Transforming Society Summer School, Sheffield, UK, 2015
+   - chair test
 
 ## Scientific Committee Member   ##
   * Advances in Multi-modal Hearing Assistive Technologies ([AMHAT](https://cogmhear.org/amhat2023/)), 2023
