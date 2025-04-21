@@ -47,7 +47,7 @@ title: ""
 * Cognitive impairment detection and invention
 * Conversational AI medical systems for healthcare
 * Multi-modal biomarkers for pathological speech
-* Generative AI for pathological speech
+* Generative and explainable AI for pathological speech
 
 ## News ##
 ## Acknowledgement ##
