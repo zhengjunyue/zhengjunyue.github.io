@@ -43,7 +43,7 @@ title: ""
 
 ### Softball ###
 
-<img src="files/images/Softball.JPG" alt="Softball Image" width="300" />
+![2012 high school competition](files/images/Softball.JPG)
 
 
 ### Short Run ###
