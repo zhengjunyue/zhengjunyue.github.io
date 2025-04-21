@@ -51,7 +51,6 @@ title: ""
 
 ### Short Run ###
 
-<img src="files/images/city-run.JPG" alt="City Run" width="300" />
 
 
 
