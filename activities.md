@@ -16,7 +16,7 @@ title: "Activities"
    - [Co-chair](https://sites.google.com/view/sciencetech4childspeech-is25) of Special session "Connecting Speech-science and Speech-technology for Children’s Speech", Interspeech 2023, 2024 and 2025
    - [Publicity Chair](https://2024.ieeeslt.org/committee/) of IEEE Spoken Language Technology Workshop (SLT) 2024, Macau, China.
    - [Co-chair](https://sites.google.com/view/icassp2024-workshop-eihrc/home) of Workshop: Revolutionizing Interaction: Embodied Intelligence and the New Era of Human-Robot Collaboration, satellite workshop of ICASSP 2024, Korea.
-   - [Co-chair](https://www.worldrobotconference.com/en/channel/3.html) of workshop in World Robot Contest, Beijing, China, 2023. 
+   - Co-organiser of [TU Delft CS Distinguished Speaker Lectures](https://www.tudelft.nl/en/eemcs/the-faculty/departments/ewi/over-de-faculteit/afdelingen/intelligent-systems/events/cs-dsl). 2024-present. 
 
 ## Expert Contributor  ##
    - [Panellist](https://slt-cdt.sheffield.ac.uk/annual-conference-2023/schedule) for UK Center of Doctoral training network (CDT) Annual Conference, Sheffield, 2023.
