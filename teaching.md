@@ -30,7 +30,11 @@ title: ""
    - Christopher Charlesworth. _Automatic Dysarthria Severity Assessment using Whisper-extracted Features - Evaluating ML architectures for dysarthria severity assessment on TORGO and MSDM._ TU Delft. 27/06/2024. 
 
 * ### Bachelor software project ###
-   - [Spectral](https://spectral.ewi.tudelft.nl/): A Toolkit for Comparative Atypical Speech Analysis and Recording ([Open Sourced](https://github.com/TU-Delft-SALT-Group/spectral/blob/main/README.md)). Yousef El Bakri, Quinton den Haan, Thijs Houben, Roman Knyazhitskiy, Odysseas Machairas. 04-06/2024. 
+  - Coach. KidneyKeeper - Promoting Kidney Health for Young Adults. With Maastricht University - MERLN Institute. 04-06/2025.
+  - Coach. AI Writes Tools for People. With JetBrains N.V.. 04-06/2025.
+  - Client. [Spectral](https://spectral.ewi.tudelft.nl/): A Toolkit for Comparative Atypical Speech Analysis and Recording ([Open Sourced](https://github.com/TU-Delft-SALT-Group/spectral/blob/main/README.md)). Yousef El Bakri, Quinton den Haan, Thijs Houben, Roman Knyazhitskiy, Odysseas Machairas. 04-06/2024.
+  - Coach. Humanities: Watermarks New. 04-06/2023.
+  - Coach. KiteSurf: VR Serious game for learning complex skills New. 04-06/2023.
 
 ## Examiner ##
 * ### Master Defence ###
@@ -46,5 +50,6 @@ title: ""
 
 * ### Bachelor Defence ###
 * ### Software Project ###
+
 
 
