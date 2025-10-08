@@ -16,11 +16,11 @@ title: ""
 
 ## Supervisor ##  
 * ### Master thesis ###
-   - Xin Wan (Co-supervised with Odette Scharenborg). _Dysarthric Speech Recognition Fusing Large Pre-trained Model Extracted Acoustic Features with Articulatory Data._ (06/2024-06/2025). TU Delft. 
+   - Xin Wan (Co-supervise). _Dysarthric Speech Recognition Fusing Large Pre-trained Model Extracted Acoustic Features with Articulatory Data._ (06/2024-06/2025). TU Delft. 
    - Xinrui Xu. _Dysarthric Speech Recognition Fusing Large Pre-trained Model Extracted Acoustic Features with Articulatory Data._ (03/2024-11/03/2025). TU Delft.
-   - Jingxian Liu (Co-supervised with Odette Scharenborg, Tanvina Patel). _Comparing and Analyzing Different Speech Conversion Techniques for Transforming Dysarthric to Normal Speech._ (01/2023-29/05/2024). TU Delft.
-   - Thomas Kluiters (Co-supervised with Odette Scharenborg). _Towards State-of-the-art Speech Recognition for the Dutch Language - A ground-up approach._ TU Delft.
-   - Mohamed-Yusuf Noor (Co-supervised with Odette Scharenborg). _Enhancing the Intelligibility of Dysarthric Speech using Diffusion-based Voice Conversion. _(Paused). TU Delft.
+   - Jingxian Liu (Co-supervise). _Comparing and Analyzing Different Speech Conversion Techniques for Transforming Dysarthric to Normal Speech._ (01/2023-29/05/2024). TU Delft.
+   - Thomas Kluiters (Co-supervise). _Towards State-of-the-art Speech Recognition for the Dutch Language - A ground-up approach._ TU Delft.
+   - Mohamed-Yusuf Noor (Co-supervise). _Enhancing the Intelligibility of Dysarthric Speech using Diffusion-based Voice Conversion. _(Paused). TU Delft.
 
 * ### Bachelor thesis ###
    - Franz Zeisler. _Reducing Bias in State-of-the-Art ASR Systems for Child Speech - Addressing Age and Gender Disparities through Transfer Learning Strategies. _TU Delft. 27/06/2024. 
@@ -39,7 +39,7 @@ title: ""
 ## Examiner ##
 * ### Master Defence ###
    - Selena Mendez. _Backdoor Attacks in Active Learning - An Extensive Analysis of Backdoor Injection in Active Learning-Trained Computer Vision Models._ (Supervisors: Georgios Smaragdakis, Stjepan Picek, Stefanos Koffas). TU Delft. 17-04-2025.
-   - Xinrui Xu. _Dysarthric Speech Recognition Fusing Large Pre-trained Model Extracted Acoustic Features with Articulatory Data._ (Supervisors: Zhengjun Yue, Odette Scharenborg). TU Delft. 11-03-2025
+   - Xinrui Xu. _Dysarthric Speech Recognition Fusing Large Pre-trained Model Extracted Acoustic Features with Articulatory Data._ (Supervisor: Zhengjun Yue). TU Delft. 11-03-2025
    - Ee Xuan Tan. _Empowering Users to Handle Misinformation in Podcasts._ (Supervisor: Ujwal Gadiraju). TU Delft. 13-12-2024.
    - Ignjat Pejic. _Adding Context to Alerts._ (Supervisor: Georgios Smaragdakis, Y. Zhauniarovich). TU Delft. 27-08-2024.
    - Dinghao Xue._ Leveraging Large Foundation Models for Zero-Shot IoT Sensing._ (Supervisors: Qun Song, Koen Langendoen). TU Delft. 28-06-2024.
