@@ -11,8 +11,8 @@ title: ""
 
 * ### Guest Lecturer ###
   - Automatic Speech Recognition Training and Evaluation. University of Groningen. Invited by Dr. Shekhar Nayak. 16/09/2025
-  - Inclusive Speech Technology. VU Amsterdam. Invited by Kousar Aslam. 20/06/2025. 
-  - Towards pathological speech recognition. University of Zurich. Invited by Sarah Ebling. 05/2022, 05/2023.
+  - Inclusive Speech Technology. VU Amsterdam. Invited by Dr. Kousar Aslam. 20/06/2025. 
+  - Towards pathological speech recognition. University of Zurich. Invited by Dr. Sarah Ebling. 05/2022, 05/2023.
   
 
 ## Supervisor ##  
