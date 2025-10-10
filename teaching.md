@@ -7,7 +7,7 @@ title: ""
 
 * ### Co-lecturer ###
   - DSAIT4095 (MSc): Inclusive Speech Technology. [Language and Speech Technology Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/language-and-speech-technology).
-  - DSAIT4065 (MSc): Conversational Agent (With Catharine Oertel Genannt Bierbach, Stephanie Tan, Iulia Lefter). [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
+  - DSAIT4065 (MSc): Conversational Agent. [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
 
 * ### Guest Lecturer ###
   - Automatic Speech Recognition Training and Evaluation. University of Groningen. Invited by Dr. Shekhar Nayak. 16/09/2025
