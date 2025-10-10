@@ -6,7 +6,7 @@ title: ""
 ## Teaching ##
 
 * ### Co-lecturer ###
-  - DSAIT4095 (MSc): Inclusive Speech Technology (with Odette Scharenborg). [Language and Speech Technology Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/language-and-speech-technology).
+  - DSAIT4095 (MSc): Inclusive Speech Technology. [Language and Speech Technology Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/language-and-speech-technology).
   - DSAIT4065 (MSc): Conversational Agent (With Catharine Oertel Genannt Bierbach, Stephanie Tan, Iulia Lefter). [Human-Centred AI Theme](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology/programme/themes/human-centred-ai).
 
 * ### Guest Lecturer ###
@@ -45,7 +45,7 @@ title: ""
    - Ignjat Pejic. _Adding Context to Alerts._ (Supervisor: Georgios Smaragdakis, Y. Zhauniarovich). TU Delft. 27-08-2024.
    - Dinghao Xue._ Leveraging Large Foundation Models for Zero-Shot IoT Sensing._ (Supervisors: Qun Song, Koen Langendoen). TU Delft. 28-06-2024.
    - Zhihao Xu. _Demystifying LLM Attacks And Defense - A Comprehensive Study with Improved Attack Technique._ (Supervisor: Georgios Smaragdakis, Stjepan Picek, Yuekang Li). TU Delft. 18-06-2024.
-   - Jingxian Xu. _Comparing and Analyzing Different Speech Conversion Techniques for Transforming Dysarthric to Normal Speech._ (Supervisors: Odette Scharenborg, Tanvina Patel, Zhengjun Yue). TU Delft. 29-05-2024.
+   - Jingxian Xu. _Comparing and Analyzing Different Speech Conversion Techniques for Transforming Dysarthric to Normal Speech._ (Co-supervisor). TU Delft. 29-05-2024.
    - Bram Pronk. _APPROACHES FOR MAPPING UNIQUE PHENOTYPE SCREENS TO A GENETIC INTERACTION NETWORK._ (Supervisors: Lodewyk F.A. Wessels, Guizela H. Prince, Joana de Pinho Goncalves). TU Delft. 08-09-2023.
    - Rembrandt Oltmans. _Clearing the Air - An Exploration of Pulmonologists' Needs and Intents in Explainable AI Solutions for Respiratory Medicine._ (Supervisors: Jie Yang, Christoph Lofi, Jiwon Jung). TU Delft. 31-08-2023. 
 
