@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>现场签到</title>
+</head>
+<body>
+  <h2>现场签到</h2>
+  <p id="status">正在获取你的位置...</p>
+  <button id="checkinBtn" style="display:none;">签到</button>
 
+  <script>
+    // 改成你的现场经纬度
+    const targetLat = 22.647688010211258;
+    const targetLng = 114.1981214541126;
+
+    // 允许签到半径，单位：米
+    const allowedRadius = 100;
+
+    function getDistance(lat1, lng1, lat2, lng2) {
+      const R = 6371000;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLng = (lng2 - lng1) * Math.PI / 180;
+
+      const a =
+        Math.sin(dLat / 2) ** 2 +
+        Math.cos(lat1 * Math.PI / 180) *
+        Math.cos(lat2 * Math.PI / 180) *
+        Math.sin(dLng / 2) ** 2;
+
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      function(position) {
+        const userLat = position.coords.latitude;
+        const userLng = position.coords.longitude;
+
+        const distance = getDistance(userLat, userLng, targetLat, targetLng);
+
+        if (distance <= allowedRadius) {
+          document.getElementById("status").innerText =
+            "你已到达现场，可以签到。距离现场约 " + Math.round(distance) + " 米。";
+
+          document.getElementById("checkinBtn").style.display = "block";
+        } else {
+          document.getElementById("status").innerText =
+            "你不在现场，无法签到。距离现场约 " + Math.round(distance) + " 米。";
+        }
+      },
+      function(error) {
+        document.getElementById("status").innerText =
+          "无法获取位置，请允许浏览器访问定位。";
+      }
+    );
+
+    document.getElementById("checkinBtn").onclick = function() {
+      alert("签到成功！");
+    };
+  </script>
+</body>
+</html>
