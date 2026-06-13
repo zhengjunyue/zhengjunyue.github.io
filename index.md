@@ -11,9 +11,9 @@ title: ""
     
     <!-- Contact Info Section -->
     <div style="font-size: 1rem; margin-bottom: 20px;">
-      <p><strong>Assistant Professor, TU Delft</strong></p>
+      <p><strong>Assistant Professor, SLAI & CUHK(SZ)</strong></p>
       <p><strong>Speech Technology for Healthcare</strong></p>
-      <p><strong>Email:</strong> <a href="mailto:z.yue@tudelft.nl">z.yue@tudelft.nl</a></p>
+      <p><strong>Email:</strong> <a href="mailto:zhengjunyue@cuhk.edu.cn">zhengjunyue@cuhk.edu.cn</a></p>
     </div>
     
     <!-- Social Media Icons Section -->
