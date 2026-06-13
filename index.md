@@ -18,7 +18,7 @@ title: ""
     
     <!-- Social Media Icons Section -->
     <div style="font-size: 1.5rem; margin-top: 20px;">
-      <a href="mailto:z.yue@tudelft.nl" style="margin: 0 10px;" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="mailto:zhengjunyue@cuhk.edu.cn" style="margin: 0 10px;" title="Email"><i class="fas fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?hl=en&user=5_TTTUMAAAAJ" target="_blank" style="margin: 0 10px;" title="Google Scholar"><i class="fab fa-google"></i></a>
       <a href="https://www.researchgate.net/profile/Zhengjun-Yue" target="_blank" style="margin: 0 10px;" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
       <a href="https://www.linkedin.com/in/zhengjun-yue/" target="_blank" style="margin: 0 10px;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -33,9 +33,9 @@ title: ""
   <!-- Left Side (Text) -->
   <div style="flex: 1; padding-left: 20px;">
     <h2>Short Bio</h2>
-    <p>Greetings! I am an Assistant Professor at the Speech Lab of the Multimedia Computing Group at the Delft University of Technology, the Netherlands. My research focus is <strong>Speech Technology for Healthcare</strong>.</p>
+    <p>Greetings! I am an Assistant Professor at the Language, Intelligence and Machines center (LIMA) at Shenzhen Loop Area Institute (SLAI) and School of Artificial Intelligence at Chinese University of Hong Kong (Shenzhen), CUHK(SZ). My research focus is <strong>Speech and Language Technology for Assistive Technology and Healthcare</strong>.</p>
     
-    <p>I completed my PhD in the area of dysarthric speech recognition in the Speech and Hearing Group at the University of Sheffield, United Kingdom, funded by the Marie-Curie H2020 TAPAS project. After my PhD, I worked at King's College London (KCL), United Kingdom, as a postdoc funded by the British Engineering and Natural Sciences Research Council (EPSRC) SpeechWave project, focusing on robust dysarthric speech recognition using raw waveform acoustic modelling. I hold an M.Sc. in Artificial Intelligence from the University of Edinburgh and a B.Sc. in Telecommunication Engineering from Shanghai University. For more details, please visit my <a href="https://zhengjunyue.github.io/cv/" class="cv-link">CV</a> page.</p>
+    <p>I completed my PhD in the area of dysarthric speech recognition in the Speech and Hearing Group at the University of Sheffield, United Kingdom, funded by the Marie-Curie H2020 TAPAS project. After my PhD, I worked at King's College London (KCL), United Kingdom, as a postdoc funded by the British Engineering and Natural Sciences Research Council (EPSRC) SpeechWave project, focusing on robust dysarthric speech recognition using raw waveform acoustic modelling. Then I went to Delft University of Technology, the Netherlands as a tenured Assistant Professor. I hold an M.Sc. in Artificial Intelligence from the University of Edinburgh and a B.Sc. in Telecommunication Engineering from Shanghai University. For more details, please visit my <a href="https://zhengjunyue.github.io/cv/" class="cv-link">CV</a> page.</p>
     
     <p>Outside of work, I enjoy dancing, singing, playing various instruments, and learning languages.</p>
   </div>
